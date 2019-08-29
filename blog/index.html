@@ -8,11 +8,12 @@ repo: website-blog-jekyll
   {% for post in site.posts %}
   <li>
     <span>{{ post.date | date_to_string }}</span>
-	  <a href="{{repo}}"+"{{ post.url }}" title="{{ post.title }}">
+	  <a href="{{repo}}{{ post.url }}" title="{{ post.title }}">
       {{ post.title }}
     </a>
   </li>
 	Just here:
 	<p>{{ post.url }}</p>
+	<p>{{repo}}{{ post.url }}</p>
 	{% endfor %}
 </ul>
