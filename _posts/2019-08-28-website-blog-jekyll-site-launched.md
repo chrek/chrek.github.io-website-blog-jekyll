@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Criscar Blog and Website, Launches Site"
-name: 2019-08-28-website-blog-jekyll-site-launched
+name: "2019-08-28-website-blog-jekyll-site-launched"
 date: 2019-08-28
 ---
 
